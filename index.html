@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+</head>
+
+<body>
+  <h1>Celebrate With Fireworks! 🎆</h1>
+  <hr>
+  <h3>Create your own custom fireworks and send to a friend!</h3>
+  <label for="message-field">Message: </label>
+  <input type="text" id="message-field" />
+  <p style="color: grey; display: inline;">(Happy Birthday, Congrats, etc.)</p>
+  <br>
+  <br>
+  <form>
+    <label for="font">Font: </label>
+    <input type="radio" id="timesnewroman" name="font" onclick="changeFont()" />
+    <label for="times">Times New Roman</label>
+    <input type="radio" id="pacifico" name="font" onclick="changeFont()" />
+    <label for="pacifico">Pacifico</label>
+    <input type="radio" id="lexend" name="font" onclick="changeFont()" />
+    <label for="lexend">Lexend</label>
+    <br>
+    <br>
+    <label for="colour-menu">Colour: </label>
+    <select id="colour-menu" onchange="changeColour();">
+      <option></option>
+      <option value="pink">Pink</option>
+      <option value="gold">Gold</option>
+      <option value="red">Red</option>
+    </select>
+  </form>
+  <hr>
+  <p id="messageInput"></p>
+  <p id="name">Meryam Akhundova</p>
+  <script src="script.js"></script>
+</body>
+
+</html>

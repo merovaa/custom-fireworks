@@ -1,0 +1,28 @@
+#messageInput {
+  position: absolute;
+  left: 35%;
+  margin-left: -50px;
+  top: 75%;
+  margin-top: -50px;
+  background: transparent;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+label[for="message-field"], label[for="font"], label[for="colour-menu"] {
+  font-weight: bold;
+}
+
+h3 {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#name {
+  color: hotpink;
+  position: absolute;
+  font-size: 20px;
+  top: 133%; 
+  left: 3%;
+}
